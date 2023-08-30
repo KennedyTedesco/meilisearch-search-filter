@@ -8,6 +8,5 @@ enum PresenceOperator: string
 {
     case EXISTS = 'EXISTS';
     case NULL = 'IS NULL';
-
     case EMPTY = 'IS EMPTY';
 }
