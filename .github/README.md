@@ -2,7 +2,7 @@
 
 # Meilisearch Search Filter
 
-[![Build Status](https://github.com/KennedyTedesco/meilisearch-search-filter/actions/workflows/tests.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/KennedyTedesco/meilisearch-search-filter/tests.yml?label=tests)
+[![Build Status](https://github.com/KennedyTedesco/meilisearch-search-filter/actions/workflows/tests.yml/badge.svg)](https://github.com/KennedyTedesco/meilisearch-search-filter/actions/workflows/tests.yml)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%209-brightgreen.svg?style=flat)](https://img.shields.io/badge/PHPStan-level%209-brightgreen.svg?style=flat)
 [![License](https://poser.pugx.org/kennedytedesco/meilisearch-search-filter/license)](//packagist.org/packages/kennedytedesco/meilisearch-search-filter)
 
