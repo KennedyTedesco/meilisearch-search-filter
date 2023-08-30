@@ -117,6 +117,20 @@ echo $filter->build();
 So, when you provide a closure to the `where()` or `orWhere()` methods, a fresh `SearchFilter` instance is passed to the
 closure as the first argument. This lets you craft nested filters within parentheses.
 
+#### Using `when()`
+
+The `when()` method allows you to conditionally add filters to the query. For example:
+
+```php
+use KennedyTedesco\Meilisearch\SearchFilter\SearchFilter;
+
+$filter = SearchFilter::new()
+    ->when($request->filled('type'), function (SearchFilter $filter) use($request) {
+        $filter->where('type', $request->get('type'));
+    })
+    ->where('release_date', '>', '795484800');
+```
+
 ### All available filter methods
 
 | Method                                | Description                                                                                                  |
