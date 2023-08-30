@@ -1,6 +1,12 @@
+<div style="text-align: center;">
+
 # Meilisearch Search Filter
 
 [![Build Status](https://github.com/KennedyTedesco/meilisearch-search-filter/actions/workflows/tests.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/KennedyTedesco/meilisearch-search-filter/tests.yml?label=tests)
+[![PHPStan](https://img.shields.io/badge/PHPStan-level%209-brightgreen.svg?style=flat)](https://img.shields.io/badge/PHPStan-level%209-brightgreen.svg?style=flat)
+[![License](https://poser.pugx.org/kennedytedesco/meilisearch-search-filter/license)](//packagist.org/packages/kennedytedesco/meilisearch-search-filter)
+
+</div>
 
 This zero-dependency library provides a fluent and intuitive way to construct filters for Meilisearch queries. It
 simplifies the process of building filters by offering a chainable API.
