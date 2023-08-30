@@ -1,0 +1,50 @@
+{
+  "name": "kennedytedesco/meilisearch-search-filter",
+  "description": "A fluent and intuitive way to construct filters for Meilisearch queries.",
+  "keywords": ["meilisearch", "php", "filter", "filters", "queries", "instant","search", "client", "api"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kennedy Tedesco",
+      "email": "kennedyt.tw@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "KennedyTedesco\\Meilisearch\\SearchFilter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {
+    "pestphp/pest": "^2.16",
+    "phpstan/phpstan": "^1.10.32",
+    "laravel/pint": "^1.11",
+    "rector/rector": "^0.18.0",
+    "phpstan/extension-installer": "^1.3",
+    "phpstan/phpstan-strict-rules": "^1.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true,
+      "phpstan/extension-installer": true
+    }
+  },
+  "scripts": {
+    "fix": [
+      "@rector",
+      "@pint"
+    ],
+    "check": "phpstan analyse -c phpstan.neon",
+    "pint": "vendor/bin/pint",
+    "rector": "vendor/bin/rector process src",
+    "test": "./vendor/bin/pest --parallel"
+  }
+}
