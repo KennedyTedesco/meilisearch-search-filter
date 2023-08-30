@@ -1,5 +1,7 @@
 # Meilisearch Search Filter
 
+[![Build Status](https://github.com/KennedyTedesco/meilisearch-search-filter/actions/workflows/tests.yml/badge.svg)](https://img.shields.io/github/actions/workflow/status/KennedyTedesco/meilisearch-search-filter/tests.yml?label=tests)
+
 This zero-dependency library provides a fluent and intuitive way to construct filters for Meilisearch queries. It
 simplifies the process of building filters by offering a chainable API.
 
