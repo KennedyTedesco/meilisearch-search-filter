@@ -18,6 +18,8 @@ composer require kennedytedesco/meilisearch-search-filter "^1.0"
 You can learn how Meilisearch filters work by reading
 the [official documentation](https://www.meilisearch.com/docs/learn/fine_tuning_results/filtering).
 
+You should also check out the [Meilisearch PHP SDK](https://github.com/meilisearch/meilisearch-php).
+
 Here are some examples that demonstrate how to build filters using this library:
 
 ```php
